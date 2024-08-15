@@ -1,0 +1,27 @@
+{
+  "name": "project-xxcaleb-calebxx",
+  "version": "1.0.0",
+  "description": "Project Part 2",
+  "main": "app.js",
+  "type": "module",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Libin Joji",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "^0.0.4",
+    "assert": "^2.1.0",
+    "axios": "^1.6.8",
+    "express": "^4.18.3",
+    "financialmodelingprep": "^1.1.0",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "mocha": "^10.3.0",
+    "mongodb": "^6.5.0",
+    "request": "^2.88.2"
+  }
+}
