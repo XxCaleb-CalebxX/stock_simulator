@@ -1,4 +1,4 @@
-## A repository for CS3100 term project
+## A repository for Stock Simulator Game
 ## Description
 * App.js handles creating the server, connects to the mongodb, and defines the routes for handling HTTP requests from clients. It imports functions from db.js and controller.js to create a database and sets up functions to be run when a route is accessed.
 * Controller.js defines the functions used to handle HTTP requests.
@@ -48,16 +48,4 @@ The app can be run by simply running the app.js file after ensuring the mongodb 
 * All 12 unit tests are passing
   <img width="287" alt="image" src="https://github.com/CS3100W24/project-XxCaleb-CalebxX/assets/72302382/a6c54d73-40b3-4ef4-917f-c41e30c55188">
 
-## Part 3
-For part 3 I was unable to complete many of the functions. Although I properly created a login page, I could not link the login page to a second page. The code for the login page and the dashboard are in the index file. The code for the dashboard is commented out, if you comment out the code for the login page and uncomment out the code for the dashboard page you can see the dashboard page. I apologise for the inconvenience. All the unit tests are still passing. 
 
-The link for the video is here: 
-https://drive.google.com/file/d/1lK_7LWsXZbuJ2ls9uZ09paLPf8LjBPf0/view?usp=sharing
-
-## Attributations
-| Source                                                                                                                                                                                                                                                                                          | Contribution | Location |
-|-------|----|----|
-| Dr. E. Brown | Code for connecting to the mongodb , unit testing and setting up a server have been adjusted from the class notes. Code for working with HTML pages  | app.js , db. js , main-test.js , functions.js , main.js , index.html , dashboard.html|
-|Jonathan on discord | The API used to find real time price of stocks | stock_price.js|
-|(https://github.com/patelneel55/financialmodelingprep) | Code from here was partially used to use the API | stock_price.js|
-|ChatGPT, Google| ChatGPT and Google were used on times to understand error codes and resolve them but No code was copied over from either sources  | None|
